@@ -1,0 +1,185 @@
+2025-08-29 23:33:34,486 - werkzeug - WARNING -  * Debugger is active!
+2025-08-29 23:33:34,537 - werkzeug - INFO -  * Debugger PIN: 458-389-605
+2025-08-29 23:34:20,538 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.119:5000
+2025-08-29 23:34:20,539 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-29 23:34:20,566 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-29 23:34:22,310 - werkzeug - WARNING -  * Debugger is active!
+2025-08-29 23:34:22,320 - werkzeug - INFO -  * Debugger PIN: 458-389-605
+2025-08-29 23:34:22,484 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:34:22] "GET / HTTP/1.1" 200 -
+2025-08-29 23:34:40,055 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:34:40] "GET /scan/1 HTTP/1.1" 200 -
+2025-08-29 23:34:40,201 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:34:40] "GET /api/scan/1 HTTP/1.1" 200 -
+2025-08-29 23:37:17,457 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:37:17] "GET / HTTP/1.1" 200 -
+2025-08-29 23:37:18,785 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:37:18] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:37:39,078 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:37:39] "GET /dashboard HTTP/1.1" 200 -
+2025-08-29 23:37:39,261 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:37:39] "GET /api/alerts HTTP/1.1" 200 -
+2025-08-29 23:37:39,266 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:37:39] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:37:55,606 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:37:55] "GET / HTTP/1.1" 200 -
+2025-08-29 23:37:55,787 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:37:55] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:38:13,934 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:38:13] "GET /dashboard HTTP/1.1" 200 -
+2025-08-29 23:38:14,053 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:38:14] "GET /api/alerts HTTP/1.1" 200 -
+2025-08-29 23:38:14,067 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:38:14] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:39:32,447 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:39:32] "POST /start_scan HTTP/1.1" 200 -
+2025-08-29 23:39:35,088 - __main__ - ERROR - Error in scan c5a00cf3-6a6c-4e3b-a1a1-66078b5fd136: 404 Client Error for http+docker://localnpipe/v1.50/images/create?tag=latest&fromImage=owasp%2Fzap2docker-stable: Not Found ("pull access denied for owasp/zap2docker-stable, repository does not exist or may require 'docker login'")
+2025-08-29 23:39:35,471 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:39:35] "GET /scan_status/c5a00cf3-6a6c-4e3b-a1a1-66078b5fd136 HTTP/1.1" 200 -
+2025-08-29 23:39:37,489 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:39:37] "GET /api/scans?limit=5 HTTP/1.1" 200 -
+2025-08-29 23:39:37,515 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:39:37] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:39:37,532 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:39:37] "GET / HTTP/1.1" 200 -
+2025-08-29 23:39:37,637 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:39:37] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:41:50,137 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:41:50] "POST /start_scan HTTP/1.1" 200 -
+2025-08-29 23:41:52,327 - __main__ - ERROR - Error in scan 5c47dd27-b977-4a86-9e8e-1b8c53d56aa4: 404 Client Error for http+docker://localnpipe/v1.50/images/create?tag=latest&fromImage=owasp%2Fzap2docker-stable: Not Found ("pull access denied for owasp/zap2docker-stable, repository does not exist or may require 'docker login'")
+2025-08-29 23:41:53,147 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:41:53] "GET /scan_status/5c47dd27-b977-4a86-9e8e-1b8c53d56aa4 HTTP/1.1" 200 -
+2025-08-29 23:41:55,181 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:41:55] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:41:55,202 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:41:55] "GET /api/scans?limit=5 HTTP/1.1" 200 -
+2025-08-29 23:41:55,222 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:41:55] "GET / HTTP/1.1" 200 -
+2025-08-29 23:41:55,983 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:41:55] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:42:37,396 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ajadi\\IdeaProjects\\amani\\untitled\\zap_scanner.py', reloading
+2025-08-29 23:42:37,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ajadi\\IdeaProjects\\amani\\untitled\\zap_scanner.py', reloading
+2025-08-29 23:42:39,531 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-29 23:42:43,850 - werkzeug - WARNING -  * Debugger is active!
+2025-08-29 23:42:43,862 - werkzeug - INFO -  * Debugger PIN: 458-389-605
+2025-08-29 23:42:54,820 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:42:54] "POST /start_scan HTTP/1.1" 200 -
+2025-08-29 23:42:55,253 - zap_scanner - INFO - Starting ZAP container...
+2025-08-29 23:42:58,460 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:42:58] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:01,100 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:01] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:03,960 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:03] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:07,338 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:07] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:10,065 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:10] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:13,025 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:13] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:15,959 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:15] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:18,800 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ajadi\\IdeaProjects\\d2b-kafka\\venv\\Lib\\site-packages\\requests\\exceptions.py', reloading
+2025-08-29 23:43:18,928 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:18] "GET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1" 200 -
+2025-08-29 23:43:22,056 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-29 23:43:26,951 - werkzeug - WARNING -  * Debugger is active!
+2025-08-29 23:43:26,976 - werkzeug - INFO -  * Debugger PIN: 458-389-605
+2025-08-29 23:43:27,177 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:27] "[33mGET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1[0m" 404 -
+2025-08-29 23:43:27,190 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:43:27] "[33mGET /scan_status/5f3fcef2-d4f3-457e-b3ba-adef1d691e8f HTTP/1.1[0m" 404 -
+2025-08-29 23:44:34,496 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ajadi\\IdeaProjects\\amani\\untitled\\app.py', reloading
+2025-08-29 23:44:34,496 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ajadi\\IdeaProjects\\amani\\untitled\\app.py', reloading
+2025-08-29 23:44:34,497 - werkzeug - INFO -  * Detected change in 'C:\\Users\\ajadi\\IdeaProjects\\amani\\untitled\\app.py', reloading
+2025-08-29 23:44:36,452 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-29 23:44:43,495 - werkzeug - WARNING -  * Debugger is active!
+2025-08-29 23:44:43,511 - werkzeug - INFO -  * Debugger PIN: 458-389-605
+2025-08-29 23:44:43,911 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:44:43] "POST /start_scan HTTP/1.1" 200 -
+2025-08-29 23:44:46,967 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:44:46] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:44:47,336 - zap_scanner - INFO - Starting ZAP container...
+2025-08-29 23:44:52,157 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:44:52] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:44:55,185 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:44:55] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:44:56,921 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:44:56] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:44:59,028 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:44:59] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:02,188 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:02] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:04,977 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:04] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:08,041 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:08] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:11,121 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:11] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:14,574 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:14] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:17,084 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:17] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:20,104 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:20] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:22,957 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:22] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:25,971 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:25] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:29,289 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:29] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:32,041 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:32] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:34,978 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:34] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:37,973 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:37] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:41,178 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:41] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:44,067 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:44] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:47,712 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:47] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:50,104 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:50] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:53,162 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:53] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:55,931 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:55] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:45:58,943 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:45:58] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:01,995 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:01] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:05,137 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:05] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:07,926 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:07] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:10,961 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:10] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:14,071 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:14] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:16,974 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:16] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:19,999 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:19] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:22,961 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:22] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:26,221 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:26] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:29,277 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:29] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:31,984 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:31] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:35,051 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:35] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:38,016 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:38] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:40,932 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:40] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:46,118 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:46] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:47,294 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:47] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:49,952 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:49] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:52,982 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:52] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:55,960 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:55] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:46:59,036 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:46:59] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:04,179 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:04] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:05,182 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:05] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:08,199 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:08] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:11,005 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:10] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:13,999 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:13] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:16,978 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:16] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:19,932 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:19] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:23,378 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:23] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:27,040 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:27] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:30,501 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:30] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:33,198 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:33] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:35,200 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:35] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:38,850 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:38] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:40,953 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:40] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:47,125 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:47] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:47,318 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:47] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:50,000 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:50] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:53,935 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:53] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:56,665 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:56] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:47:59,544 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:47:59] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:48:07,720 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:48:07] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:48:07,768 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:48:07] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:48:07,959 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:48:07] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:48:13,549 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:48:13] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:48:14,945 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:48:14] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:48:17,061 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:48:17] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:48:20,242 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:48:20] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:15,928 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:15] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:17,120 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:17] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:19,172 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:19] "GET /dashboard HTTP/1.1" 200 -
+2025-08-29 23:49:20,333 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:20] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:21,403 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:21] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:49:21,786 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:21] "GET /api/alerts HTTP/1.1" 200 -
+2025-08-29 23:49:23,953 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:23] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:25,983 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:25] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:28,973 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:28] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:31,979 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:31] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:35,142 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:35] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:38,036 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:38] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:43,545 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:43] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:49:44,428 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:49:44] "GET /scan_status/7f9ecda5-5d83-4326-9169-fb273eda073b HTTP/1.1" 200 -
+2025-08-29 23:51:32,484 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.119:5000
+2025-08-29 23:51:32,581 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-29 23:51:32,647 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-08-29 23:51:41,328 - werkzeug - WARNING -  * Debugger is active!
+2025-08-29 23:51:41,340 - werkzeug - INFO -  * Debugger PIN: 458-389-605
+2025-08-29 23:51:49,071 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:51:49] "GET / HTTP/1.1" 200 -
+2025-08-29 23:51:50,248 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:51:50] "GET /api/statistics HTTP/1.1" 200 -
+2025-08-29 23:51:54,061 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:51:54] "POST /start_scan HTTP/1.1" 200 -
+2025-08-29 23:51:54,466 - zap_scanner - INFO - Starting ZAP container...
+2025-08-29 23:51:57,156 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:51:57] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:03,505 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:03] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:07,177 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:07] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:11,145 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:11] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:12,896 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:12] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:15,911 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:15] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:18,937 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:18] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:22,724 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:22] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:25,060 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:25] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:28,071 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:28] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:31,179 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:31] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:34,109 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:34] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:37,988 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:37] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:39,644 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:39] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:42,199 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:42] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:46,021 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:46] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:48,579 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:48] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:52,269 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:52] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:55,308 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:55] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:52:57,226 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:52:57] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
+2025-08-29 23:53:00,969 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 23:53:00] "GET /scan_status/65347141-f395-40df-ae48-ba1ca7f040c1 HTTP/1.1" 200 -
